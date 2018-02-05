@@ -1,5 +1,11 @@
 
+#+CAPTION: chough
+#+NAME:   fig:SED-HR4049
+[[./misc/chough-logo.jpg]]
+
 =chough(红嘴山鸦) 数据库/文件备份工具=
+
+
 
 将远程的文件/目录/PostgreSQL备份到本地文件或目录
 
