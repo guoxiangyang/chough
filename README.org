@@ -3,7 +3,7 @@
 #+NAME:   fig:SED-HR4049
 [[./misc/chough-logo.jpg]]
 
-* chough  PostgreSQL数据库/文件备份工具
+* chough : PostgreSQL数据库/文件备份工具
 
 
 
