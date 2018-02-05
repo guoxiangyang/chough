@@ -1,0 +1,34 @@
+
+=chough(红嘴山鸦) 数据库/文件备份工具=
+
+将远程的文件/目录/PostgreSQL备份到本地文件或目录
+
+* 特点
+   - 支持PostgreSQL数据库及目录/文件备份
+
+** PostgreSQL 数据库备份
+   - 通过管道操作, 不占用服务器端存储空间, 压缩传输
+   - 支持带宽控制, 可以指定备份任务使用的带宽
+   - 支持全表备份与增量备份(AO类型日志表), 节省备份任务占用带宽, 加快备份速度.
+   - 支持不同颗粒度的设置备份计划 database/schema/table
+   - 支持自定义备份文件命名规则
+   - 支持备份文件压缩或不压缩,及历史备份删除规则
+   - 支持命令行运行或cron 定时任务运行
+   - 记录备份日志
+
+** 文件备份
+   - 文件系统采用rsync增量备份
+
+* 命令行定义
+  #+BEGIN_SRC sh
+    chough [options] <command>
+  #+END_SRC
+** command
+  - enum <host> [port] db-name [schema]
+    自动抓取数据库信息
+  - run <task>
+    执行备份任务
+
+* task.conf定义
+
+
