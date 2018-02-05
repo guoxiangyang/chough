@@ -3,7 +3,7 @@
 #+NAME:   fig:SED-HR4049
 [[./misc/chough-logo.jpg]]
 
-=chough(红嘴山鸦) 数据库/文件备份工具=
+* chough(红嘴山鸦) 数据库/文件备份工具
 
 
 
